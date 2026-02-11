@@ -59,7 +59,13 @@ App runs at http://localhost:5173
 - Backend code in backend/
 - Frontend code in frontend/
 - UI screen in the running app
-- Tests: not added yet (add under backend/tests/)
+- Tests: minimal pytest suite under backend/tests/
+
+## Tests
+```bash
+cd backend
+python -m pytest
+```
 
 ## Repository Submission
 Push the repo to GitHub after verifying both services run locally.
